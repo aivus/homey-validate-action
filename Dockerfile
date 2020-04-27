@@ -1,6 +1,6 @@
-FROM alpine:3.10
+FROM node:slim
 
-COPY LICENSE README.md /
+RUN npm install -g homey
 
 COPY entrypoint.sh /entrypoint.sh
 
