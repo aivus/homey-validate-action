@@ -4,3 +4,6 @@ author: 'Illia Antypenko (@aivus)'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'purple'
