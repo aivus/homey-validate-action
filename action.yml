@@ -1,6 +1,9 @@
-name: 'Validate Homey application'
+name: 'Validate Homey App'
 description: 'Validate Homey application against publish level'
 author: 'Illia Antypenko (@aivus)'
 runs:
   using: 'docker'
   image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'purple'
