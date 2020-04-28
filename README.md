@@ -5,7 +5,7 @@ This GitHub action runs `homey app validate -l publish` command
 
 ## Usage
 
-1. Create a workflow file (e.g. `.github/workflows/homey-validation.yml`) that contains a step for `aivus/homey-validate-action`.
+Create a workflow file (e.g. `.github/workflows/homey-validation.yml`) that contains a step for `aivus/homey-validate-action`.
 
 This is an example of this file:
 ```
