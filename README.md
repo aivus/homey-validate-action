@@ -1,4 +1,5 @@
 # Validate Homey App
+
 This GitHub Action checks that Athom Homey application ready to publish by the Homey CLI tool.
 
 This GitHub action runs `homey app validate -l publish` command
@@ -19,4 +20,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: aivus/homey-validate-action@v1
+```
+
+## Running action locally
+
+To build and run this action you need to do following:
+
+```
+# build docker image
+docker build -t homey-validate-action .
+
+# Inside your Homey App directory run the container
+docker run --workdir /workspace -v `pwd`:/workspace homey-validate-action:latest
 ```
