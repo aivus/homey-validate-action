@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:14-slim
 
 RUN npm install -g homey
 
