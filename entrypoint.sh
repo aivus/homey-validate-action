@@ -9,4 +9,4 @@ RESULT=`homey app validate -l publish`
 echo "$RESULT"
 
 # Return exit code 1 in case it's not found
-echo "$RESULT" | grep "Homey App validated successfully against level" > /dev/null 2>&1
+echo "$RESULT" | grep "App validated successfully against level" > /dev/null 2>&1
