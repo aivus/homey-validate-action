@@ -1,5 +1,7 @@
 # Validate Homey App
 
+> This GitHub Action is deprecated and is no longer maintained. Please use [athombv/github-action-homey-app-validate](https://github.com/marketplace/actions/homey-app-validate) instead.
+
 This GitHub Action checks that Athom Homey application ready to publish by the Homey CLI tool.
 
 This GitHub action runs `homey app validate -l publish` command

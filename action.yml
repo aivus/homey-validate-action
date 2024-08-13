@@ -1,4 +1,4 @@
-name: 'Validate Homey App'
+name: 'Validate Homey App (Deprecated)'
 description: 'Validate Homey application against publish level'
 author: 'Illia Antypenko (@aivus)'
 runs:
